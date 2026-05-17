@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"c:\\\\Users\\\\JagadeeshJampana\\\\OneDrive - Loyalty Methods Corp\\\\Documents\\\\project\" -Force)",
+      "Bash(Select-Object Name, Mode)"
+    ]
+  }
+}
