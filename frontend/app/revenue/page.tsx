@@ -51,8 +51,7 @@ export default async function RevenuePage() {
           </ChartCard>
         </div>
 
-        <ChartCard title="Revenue by Hour of Day" subtitle="Peak shopping hours analysis — all markets combined" delay={0.25}
-          icon={<Clock size={14} className="text-cyan-400" />}>
+        <ChartCard title="Revenue by Hour of Day" subtitle="Peak shopping hours analysis — all markets combined" delay={0.25}>
           <HourlyRevenueChart data={hourly} />
         </ChartCard>
 
