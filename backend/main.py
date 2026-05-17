@@ -19,8 +19,8 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",
-        "https://retailpulse-ai.up.railway.app",
-        "http://localhost:3000",
+        "https://retailpulse-ai.vercel.app",
+        "https://retailpulse-backend.onrender.com",
     ],
     allow_methods=["*"],
     allow_headers=["*"],
